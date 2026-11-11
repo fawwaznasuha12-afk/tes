@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-from sqlalchemy import create_url
 from sqlalchemy.orm import Session
 from datetime import datetime, timedelta
 from typing import List, Optional
